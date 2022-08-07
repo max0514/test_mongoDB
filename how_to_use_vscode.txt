@@ -1,0 +1,45 @@
+ctrl + ` = open terminal
+
+
+
+
+Cut line (empty selection)	⌘X	.clipboardCutAction
+Copy line (empty selection)	⌘C	.clipboardCopyAction
+Paste	⌘V	.clipboardPasteAction
+Delete Line	⇧⌘K	.deleteLines
+Insert Line Below	⌘Enter	.insertLineAfter
+Insert Line Above	⇧⌘Enter	.insertLineBefore
+Move Line Down	⌥↓	.moveLinesDownAction
+Move Line Up	⌥↑	.moveLinesUpAction
+Copy Line Down	⇧⌥↓	.copyLinesDownAction
+Copy Line Up	⇧⌥↑	.copyLinesUpAction
+Undo	⌘Z	undo
+Redo	⇧⌘Z	redo
+Add Selection To Next Find Match	⌘D	.addSelectionToNextFindMatch
+Move Last Selection To Next Find Match	⌘K ⌘D	.moveSelectionToNextFindMatch
+Undo last cursor operation	⌘U	cursorUndo
+Insert cursor at end of each line selected	⇧⌥I	.insertCursorAtEndOfEachLineSelected
+Select all occurrences of current selection	⇧⌘L	.selectHighlights
+Select all occurrences of current word	⌘F2	.changeAll
+Select current line	⌘L	expandLineSelection
+Insert Cursor Below	⌥⌘↓	.insertCursorBelow
+Insert Cursor Above	⌥⌘↑	.insertCursorAbove
+Jump to matching bracket	⇧⌘\	.jumpToBracket
+Indent Line	⌘]	.indentLines
+Outdent Line	⌘[	.outdentLines
+Go to Beginning of Line	Home	cursorHome
+Go to End of Line	End	cursorEnd
+Go to End of File	⌘↓	cursorBottom
+Go to Beginning of File	⌘↑	cursorTop
+Scroll Line Down	⌃PageDown	scrollLineDown
+Scroll Line Up	⌃PageUp	scrollLineUp
+Scroll Page Down	⌘PageDown	scrollPageDown
+Scroll Page Up	⌘PageUp	scrollPageUp
+Fold (collapse) region	⌥⌘[	.fold
+Unfold (uncollapse) region	⌥⌘]	.unfold
+Fold (collapse) all subregions	⌘K ⌘[	.foldRecursively
+Unfold (uncollapse) all subregions	⌘K ⌘]	.unfoldRecursively
+Fold (collapse) all regions	⌘K ⌘0	.foldAll
+Unfold (uncollapse) all regions	⌘K ⌘J	.unfoldAll
+Add Line Comment	⌘K ⌘C	.addCommentLine
+
