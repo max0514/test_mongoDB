@@ -1,0 +1,10 @@
+list all the package under venv:
+python -m site
+
+removed a venv:
+sudo rm -rf 'venv'
+
+show items in the selected folder:
+ sudo ls path/to/folder
+
+
